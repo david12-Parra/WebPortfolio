@@ -1,3 +1,29 @@
 @media (min-width: 624px){
-    
+    .navbar {
+        padding: 2rem 2.5rem;
+    }
+
+    .main__title, .main__subtitle, .logotipos, .spense, .yelpcamp {
+        padding: 0 2.4rem;
+    }
+
+    .logotipos {
+        gap: 0 4rem;
+        grid-template-rows: repeat(2, 5rem);
+        grid-template-columns: repeat(3, 12rem);
+    }
+
+    .spense__title, .yelpcamp__title {
+        margin-bottom: 0.8rem;
+    }
+
+    .communities {
+        padding-left: 2.4rem;
+        font-size: 1.5rem;
+    }
+
+    .interested  {
+        padding-left: 2.4rem;
+        max-width: 40rem;
+    }
 }
