@@ -3,8 +3,11 @@
         padding: 2rem 2.5rem;
     }
 
-    .main__title, .main__subtitle, .logotipos, .spense, .yelpcamp {
+    .main__title, .main__subtitle, .spense, .yelpcamp {
         padding: 0 2.4rem;
+    }
+    .main__title {
+        font-size: 3.8rem;
     }
 
     .logotipos {

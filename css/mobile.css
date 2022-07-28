@@ -25,10 +25,23 @@ html {
     justify-content: space-between;
 }
 
+.navbar__desktop {
+    display: none;
+}
+
 .navbar__title, .footer__title {
     color: white;
     font-size: 2rem;
     font-family: 'Prata', serif;
+}
+
+.main__content {
+    max-width: 95rem;
+    margin: 0 auto;
+}
+
+.main__title__content {
+     max-width: 52rem;  
 }
 
 .main__title {
@@ -106,11 +119,11 @@ html {
     font-family: 'Prata', serif;
 }
 
-.communities__content {
+.communities > p:first-child {
     margin-top: 1rem;
 }
 
-.communities__content > p {
+.communities > p {
     margin-bottom: 1.8rem;
 }
 
@@ -121,7 +134,7 @@ html {
     background-color: var(--black-container);
 }
 
-.interested__button {
+.button--primary {
     margin-top: 1rem;
     padding: 0.8rem 1rem;
     font-size: 1.4rem;
@@ -133,12 +146,17 @@ html {
 
 
 .footer__container {
+    background-color: var(--gray-container);
+}
+
+.footer__content {
+    max-width: 95rem;
     height: 6rem;
+    margin: 0 auto;
     padding: 0 2rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: var(--gray-container);
 }
 
 .footer__figure {

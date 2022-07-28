@@ -21,18 +21,32 @@
     <body>
 
         <header>
-            <nav class ="navbar">
-                <p class ="navbar__title">Hernan Alvarado</p>
-                <img src ="./assets/images/Hamburger Menu.svg" alt ="icono de menu">
+            <nav>
+                <div class ="navbar navbar--close">
+                    <p class ="navbar__title">Hernan Alvarado</p>
+                    <img src ="./assets/images/Hamburger Menu.svg" alt ="icono de menu">
+                </div>
+                <div class ="navbar navbar__desktop">
+                    <p class ="navbar__title">Hernan Alvarado</p>
+                    <ul class ="navbar__links">
+                        <li><a href ="">Articles</a></li>
+                        <li><a href ="">Chats</a></li>
+                        <li><a href ="">Awards</a></li>
+                        <li><a href ="">About</a></li>
+                    </ul>
+                    <button class ="button--primary">Get in touch</button>
+                </div>
             </nav>
         </header>
 
         <main class ="main__content">
-            <h1 class ="main__title">Helping companies build better, scalable software.</h1>
-            <p class ="main__subtitle">
-                Award-winnig web developer and author with over 15+ years of working experience
-                with Fortune 500 companies like Apple, Google, Facebook, and more.
-            </p>
+            <div class ="main__title__content">
+                <h1 class ="main__title">Helping companies build better, scalable software.</h1>
+                <p class ="main__subtitle">
+                    Award-winnig web developer and author with over 15+ years of working experience
+                    with Fortune 500 companies like Apple, Google, Facebook, and more.
+                </p>
+            </div>
             <figure class ="logotipos">
                 <img src ="./assets/logos/Walmart.svg" alt ="Logo de Walmart">
                 <img src ="./assets/logos/JP Morgan.svg" alt ="Logotipo de J.P.Morgan">
@@ -41,68 +55,68 @@
                 <img src ="./assets/logos/Samsung.svg" alt ="Logo de Samsung">
                 <img src ="./assets/logos/Verizon.svg" alt ="Logo de verizon">
             </figure>
-            <div class ="spense">
-                <img class ="spense__image" src ="./assets/images/Spense.png" alt ="imagen de projectos">
-                <h2 class ="spense__title">Spense.com</h2>
-                <p class ="spense__content">
-                    Rethinking the way writers get paid, an open-source platform designed to help writers
-                    focus more on writing, and less on when and how they'll get paid. Project in
-                    collaboration with Codewell.cc
-                </p>
-            </div>
-            <div class ="yelpcamp">
-                <img class ="yelpcamp__image" src ="./assets/images/YelpCamp.png" alt ="">
-                <h2 class ="yelpcamp__title">YelpCamp.com</h2>
-                <p class ="yelpcamp__content">
-                    Allowing backpack travelers to perfectly plan their trip through an open-source
-                    platform similar to TripAdvisor. With over 1m MAU, YelpCamp has benn the crowd's 
-                    favorite in 2021.
-                </p>
-            </div>
+            <section class ="articles">
+                <article class ="spense">
+                    <img class ="spense__image" src ="./assets/images/Spense.png" alt ="imagen de projectos">
+                    <h2 class ="spense__title">Spense.com</h2>
+                    <p class ="spense__content">
+                        Rethinking the way writers get paid, an open-source platform designed to help writers
+                        focus more on writing, and less on when and how they'll get paid. Project in
+                        collaboration with Codewell.cc
+                    </p>
+                </article>
+                <article class ="yelpcamp">
+                    <img class ="yelpcamp__image" src ="./assets/images/YelpCamp.png" alt ="">
+                    <h2 class ="yelpcamp__title">YelpCamp.com</h2>
+                    <p class ="yelpcamp__content">
+                        Allowing backpack travelers to perfectly plan their trip through an open-source
+                        platform similar to TripAdvisor. With over 1m MAU, YelpCamp has benn the crowd's 
+                        favorite in 2021.
+                    </p>
+                </article>
+            </section>       
             <section class ="communities">
-                <h2 class ="communities__title">A co-founder at one of the world's largest communities.</h2>
-                <div class ="communities__content">
-                    <p>
-                        The combined experience i have working at the top Fortune 500 companies has allowed
-                        me to developer a skillset that helps me in not just development, but int every 
-                        aspect of any business
-                    </p>
-                    <p>
-                        I'm proud to announce that i am now working at one od the world's largest communities
-                        teaching young minds and open them to a whole new world od opportunities
-                    </p>
-                    <p>
-                        As a developer, you have everything aveliable to you and all that's holding you back
-                        is yourself
-                    </p>
-                    <p>
-                        A quote i live by perfectly illustrates what i mean.
-                    </p>
-                    <p>
-                        "How big would you dream, if you knew you a wouldn't fail? You've already gone through
-                        the hardest parts being a developer, it's time to elevate your skills and become a leader
-                        in something you're passionate about"
-                    </p>
-                    <p>I'm happy to chat over coffee some time about how to I can help your company</p>
-                </div>
-            </section>
+                <h2 class ="communities__title">A co-founder at one of the world's largest communities.</h2>            
+                <p>
+                    The combined experience i have working at the top Fortune 500 companies has allowed
+                    me to developer a skillset that helps me in not just development, but int every 
+                    aspect of any business
+                </p>
+                <p>
+                    I'm proud to announce that i am now working at one od the world's largest communities
+                    teaching young minds and open them to a whole new world od opportunities
+                </p>
+                <p>
+                    As a developer, you have everything aveliable to you and all that's holding you back
+                    is yourself.
+                    A quote i live by perfectly illustrates what i mean.
+                </p>
+                <p>
+                    "How big would you dream, if you knew you a wouldn't fail? You've already gone through
+                    the hardest parts being a developer, it's time to elevate your skills and become a leader
+                    in something you're passionate about"
+                </p>
+                <p>I'm happy to chat over coffee some time about how to I can help your company</p>             
+            </section>        
             <div class ="interested">
                 <h2 class ="interested__title">Interested in working with me?</h2>
                 <p class ="interested__content">
                     I'm active on all social media platform listed below, but you can also me an email and i 
                     will get back to you within 24-48 hourds
                 </p>
-                <button class ="interested__button">Get in touch</button>
+                <button class ="button--primary">Get in touch</button>
             </div>
         </main>
 
         <footer class ="footer__container">
-            <p class ="footer__title">Hernan Alvarado</p>
-            <figure class ="footer__figure">
-                <img src ="./assets/social_icons/Twitter.svg" alt ="icono de Twitter">
-                <img src ="./assets/social_icons/LinkedIn.svg" alt ="icono de linkedin">
-                <img src ="./assets/social_icons/Github.svg" alt ="Icono de Github">
-            </figure>
+            <div class ="footer__content">
+                <p class ="footer__title">Hernan Alvarado</p>
+                <figure class ="footer__figure">
+                    <img src ="./assets/social_icons/Twitter.svg" alt ="icono de Twitter">
+                    <img src ="./assets/social_icons/LinkedIn.svg" alt ="icono de linkedin">
+                    <img src ="./assets/social_icons/Github.svg" alt ="Icono de Github">
+                </figure>
+            </div>
         </footer>
 
     </body>

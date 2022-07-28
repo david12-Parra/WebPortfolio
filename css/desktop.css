@@ -1,10 +1,38 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
+@media (min-width: 1024px){
+    .navbar__desktop {
+        max-width: 95rem;
+        margin: 0 auto;
+        display: flex;
+    }
 
-html {
-    font-size: 62.5%;
-    background-color: black;
+    .navbar__links {
+        display: flex;
+    }
+
+    .navbar__links > li > a {
+        margin: 0 1.5rem;
+        color: white;
+        font-size: 1.4rem;
+        text-decoration: none;
+    }
+
+    .navbar--close {
+        display: none;
+    }
+
+    .logotipos {
+        grid-template-columns: repeat(auto-fit, minmax(10rem, 12rem));
+    }
+
+    .articles {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .communities {
+        display: grid;
+        gap: 1rem 7rem;
+        grid-template-rows: repeat(3, 10rem);
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
